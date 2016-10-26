@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+        <hibernate-mapping>
+            <class name="example03.Developer" table="HIBERNATE_DEVELOPERS">
+                <meta attribute="class-description">
+                    This class contains developer details.
+                </meta>
+
+                <id name="id" type="int" column="ID">
+                    <generator class="native"/>
+                </id>
+
+                <property name="firstName" type="java.lang.String" column="FIRST_NAME"/>
+                <property name="lastName" type="java.lang.String" column="LAST_NAME"/>
+                <property name="specialty" type="java.lang.String" column="SPECIALTY"/>
+                <property name="experience" type="int" column="EXPERIENCE"/>
+            </class>
+        </hibernate-mapping>
