@@ -21,11 +21,6 @@
           <unit-entry name="hibernate.cfg.xml" value="cdf96f6f-cf1b-4c29-9062-a5f745ac6f8a" />
         </datasource-map>
         <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/java/example01/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/java/example02/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/java/example03/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/java/example04/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/java/example05/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/resources/hibernate.cfg.xml" />
       </configuration>
     </facet>
@@ -120,12 +115,6 @@
     <orderEntry type="library" name="Maven: asm:asm-analysis:3.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: asm:asm-commons:3.2" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.6" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-parent:1.5.6" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-jdk14:1.5.6" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.genesis:genesis:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.plugin-tools:maven-plugin-annotations:3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.plugin-tools:maven-plugin-tools:3.1" level="project" />
@@ -181,6 +170,7 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat.maven:tomcat7-war-runner:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.maven:tomcat-maven-plugin:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.maven:tomcat7-maven-plugin:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts-core:1.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts-parent:1.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts-master:4" level="project" />
@@ -251,6 +241,8 @@
     <orderEntry type="library" name="Maven: org.daverog:json-ld-tree:1.0.7" level="project" />
     <orderEntry type="library" name="Maven: com.hp.hpl.jena:iri:0.8" level="project" />
     <orderEntry type="library" name="Maven: com.hp.hpl.jena:jena:2.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" level="project" />
     <orderEntry type="library" name="Maven: com.hp.hpl.jena:arq:2.8.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-parent:24" level="project" />
@@ -439,5 +431,6 @@
     <orderEntry type="library" name="Maven: org.sonatype.aether:aether-spi:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.sonatype.aether:aether-parent:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.sonatype.aether:aether-impl:1.7" level="project" />
+    <orderEntry type="library" name="Hibernate_test" level="application" />
   </component>
 </module>

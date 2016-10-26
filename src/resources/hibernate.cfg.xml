@@ -21,10 +21,6 @@
             root
         </property>
 
-        <property name="hibernate.jdbc.batch_size">
-            50
-        </property>
-
         <mapping resource="Developer.hbm.xml"/>
         <mapping resource="Project.hbm.xml"/>
         <mapping resource="Team.hbm.xml"/>
